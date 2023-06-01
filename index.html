@@ -1,14 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Arxitektur</title>
-</head>
-<body>
-    <h1>Let's start</h1>
-    <script src="./assets/js/var.js"></script>
-</body>
+  </head>
+  <body>
+    <!-- Loader -->
+    <section class="loader">
+      <div class="main-content">
+        <div class="spiral"></div>
+        <img
+          class="loader_brand"
+          src="./assets/images/icons/icon-1.png"
+          alt="Logotip"
+        />
+      </div>
+    </section>
+    <!-- // Loader -->
+    <header class="header">
+      <!-- Top header -->
+      <div class="top-header">
+        <div class="container">
+          <div class="main-content">
+            <div class="left-side">
+              <a href="#" class="number">
+                <i class="fa-solid fa-phone"></i>
+                +012 345 6789
+              </a>
+              <a href="#" class="email">
+                <i class="fa-solid fa-envelope"></i>
+                info@example.com
+              </a>
+            </div>
+            <div class="right-side">
+              <a href="#" class="link"> Terms </a>
+              <a href="#"> Privacy </a>
+              <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-instagram"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //Top header -->
+      <!-- Navbar -->
+      <div class="navigation">
+        <div class="container">
+          <div class="main-content">
+            <div class="logo">
+              <img
+                src="./assets/images/icons/icon-1.png"
+                alt="Logotip"
+                class="logo"
+              />
+              <h1 class="brand">Arkitektur</h1>
+            </div>
+            <div class="navbar">
+              <a href="#" class="nav-item active">HOME</a>
+              <a href="#" class="nav-item">ABOUT</a>
+              <a href="#" class="nav-item">SERVICES</a>
+              <div class="nav-item dropdown">
+                PAGES <i class="fa-solid fa-caret-down"></i>
+                <ul class="dropdown-list">
+                  <a href="#" class="dropdown-item">Our Projects</a>
+                  <a href="#" class="dropdown-item">Our Features</a>
+                  <a href="#" class="dropdown-item">Team Members</a>
+                  <a href="#" class="dropdown-item">Appointment</a>
+                  <a href="#" class="dropdown-item">Testimonial</a>
+                  <a href="#" class="dropdown-item">404 Page</a>
+                </ul>
+              </div>
+              <a href="#" class="nav-item">CONTACT</a>
+              <div class="btn">
+                <a href="#">Appointment</a>
+              </div>
+            </div>
+            <div class="burger">
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //Navbar -->
+      <!-- Intro section -->
+      <section class="intro">
+        <div class="main-content">
+          <div class="slider">
+            <div class="slide-item slider-item_default_code">
+              <div class="container">
+                <h1 class="main-title">
+                  Best Architecture And Interior </br> Design Services
+                </h1>
+                <p class="main-text">
+                  Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam <br>
+                  no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
+                  elitr.
+                </p>
+                <div class="btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item slider-item_default_code">
+              <div class="container">
+                <h1 class="main-title">
+                  Best Architecture And Interior </br> Design Services
+                </h1>
+                <p class="main-text">
+                  Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam <br>
+                  no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
+                  elitr.
+                </p>
+                <div class="btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="slide-item slider-item_default_code">
+              <div class="container">
+                <h1 class="main-title">
+                  Best Architecture And Interior </br> Design Services
+                </h1>
+                <p class="main-text">
+                  Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam <br>
+                  no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
+                  elitr.
+                </p>
+                <div class="btn">
+                  <a href="#">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-tab">
+            <img class="active" src="./assets/images/carousel-1.jpg" alt="Carousel 1">
+            <img src="./assets/images/carousel-2.jpg" alt="Carousel 1">
+            <img src="./assets/images/carousel-3.jpg" alt="Carousel 1">
+          </div>
+        </div>
+      </section>
+      <!-- //Intro section -->
+    </header>
+    <script defer src="./assets/js/var.js"></script>
+  </body>
 </html>
